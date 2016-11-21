@@ -1,0 +1,23 @@
+deepin-wallpapers (1.3) stable; urgency=low
+
+  * Autobuild Tag 1.3 
+
+ -- TagBuilder <tagbuilder@linuxdeepin.com>  Mon, 23 May 2016 14:13:20 +0000
+
+deepin-wallpapers (1.2) unstable; urgency=medium
+
+  * Add image blur
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 09 May 2016 09:13:05 +0800
+
+deepin-wallpapers (1.1) unstable; urgency=medium
+
+  * Remove default wallpaper
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 06 Apr 2016 15:30:27 +0800
+
+deepin-wallpapers (1.0) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Tue, 29 Mar 2016 13:41:23 +0800

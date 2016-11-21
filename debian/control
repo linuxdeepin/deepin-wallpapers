@@ -1,0 +1,14 @@
+Source: deepin-wallpapers
+Section: utils
+Priority: optional
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://www.deepin.org/
+#Vcs-Git: git://anonscm.debian.org/collab-maint/deepin-wallpapers.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/deepin-wallpapers.git
+
+Package: deepin-wallpapers
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Default wallpapers for dde
