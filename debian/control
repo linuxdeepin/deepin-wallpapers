@@ -11,4 +11,5 @@ Homepage: https://www.deepin.org/
 Package: deepin-wallpapers
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: deepin-desktop-base (<< 2017.11.2)
 Description: Default wallpapers for dde
