@@ -10,7 +10,7 @@ prepare:
 	@mkdir -p image-blur
 
 blur/%: 
-	/usr/lib/deepin-api/image-blur --sigma 30 $(subst blur/,,$@) image-blur/$(call md5sum, ${@F}).jpg
+	/usr/lib/deepin-api/image-blur --sigma 30 $(subst blur/,,$@) image-blur/$(call md5sum,${@F}).jpg
 
 clean:
 	rm -rf image-blur
