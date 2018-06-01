@@ -5,7 +5,7 @@ set -e
 case "${1}" in
 	configure)
 	    update-alternatives --install /usr/share/backgrounds/default_background.jpg \
-		    deepin-default-background /usr/share/wallpapers/deepin-private/desktop.jpg 50
+		    deepin-default-background /usr/share/wallpapers/deepin/desktop.jpg 50
 		;;
 
 	abort-upgrade|abort-remove|abort-deconfigure)
