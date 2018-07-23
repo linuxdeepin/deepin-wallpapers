@@ -18,6 +18,6 @@ Description: dde wallpapers
 Package: deepin-community-wallpapers
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: deepin-desktop-base (<< 2017.11.2), deepin-wallpapers(<< 1.7.5)
-Description: dde wallpapers
+Breaks: deepin-wallpapers(<< 1.7.5)
+Description: community wallpapers
  Community wallpapers for dde
