@@ -13,9 +13,11 @@ Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Description: dde wallpapers
+ Default wallpapers for dde
 
 Package: deepin-community-wallpapers
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: deepin-desktop-base (<< 2017.11.2)
- Default wallpapers for dde
+Breaks: deepin-desktop-base (<< 2017.11.2), deepin-wallpapers(<< 1.7.5)
+Description: dde wallpapers
+ Community wallpapers for dde
