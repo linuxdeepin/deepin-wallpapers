@@ -4,6 +4,7 @@ set -e
 
 case "${1}" in
 	configure)
+	    mkdir -p /usr/share/backgrounds/
 	    update-alternatives --install /usr/share/backgrounds/default_background.jpg \
 		    deepin-default-background /usr/share/wallpapers/deepin/desktop.jpg 50
 		;;
