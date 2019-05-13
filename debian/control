@@ -9,7 +9,7 @@ Homepage: https://www.deepin.org/
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/deepin-wallpapers.git
 
 Package: deepin-wallpapers
-Architecture: all
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Description: Default wallpapers for dde
