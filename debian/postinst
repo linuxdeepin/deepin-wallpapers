@@ -6,7 +6,7 @@ case "${1}" in
 	configure)
 	    mkdir -p /usr/share/backgrounds/
 	    update-alternatives --install /usr/share/backgrounds/default_background.jpg \
-		    deepin-default-background /usr/share/wallpapers/deepin/desktop.* 50
+		    deepin-default-background /usr/share/wallpapers/deepin/cristina-gottardi-wndpWTiDuT0-unsplash.* 50
 
 		;;
 
