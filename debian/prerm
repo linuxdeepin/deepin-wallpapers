@@ -6,7 +6,7 @@ set -e
 case "$1" in
     remove|deconfigure|failed-upgrade)
 	update-alternatives --remove deepin-default-background \
-	    /usr/share/wallpapers/deepin/desktop.*
+	    /usr/share/wallpapers/deepin/ashim-d-silva-WeYamle9fDM-unsplash.*
 	;;
 esac
 
