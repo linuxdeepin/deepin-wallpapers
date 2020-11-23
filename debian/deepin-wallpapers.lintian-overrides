@@ -1,0 +1,3 @@
+deepin-wallpapers: helper-templates-in-copyright
+deepin-wallpapers: copyright-contains-dh_make-todo-boilerplate
+deepin-wallpapers: debian-rules-is-dh_make-template

@@ -1,11 +1,11 @@
-deepin-wallpapers (1.7.8-1) unstable; urgency=medium
+deepin-wallpapers (1.7.8-1) stable; urgency=medium
 
-  * Non-maintainer upload.
-  * update desktop.jpg
+  * update desktop.jpg -> default_background.jpg
+  * 
 
- -- TagBuilder <lichenggang@uniontech.com>  Tue, 17 Nov 2020 10:24:54 +0800
+ -- TagBuilder <tagbuilder@linuxdeepin.com>  Mon, 23 Nov 2020 09:54:18 +0800
 
-deepin-wallpapers (1.3-1) stable; urgency=low
+deepin-wallpapers (1.3) stable; urgency=low
 
   * Autobuild Tag 1.3 
 

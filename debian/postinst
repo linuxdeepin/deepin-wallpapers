@@ -7,6 +7,7 @@ case "${1}" in
 	    mkdir -p /usr/share/backgrounds/
 	    update-alternatives --install /usr/share/backgrounds/default_background.jpg \
 		    deepin-default-background /usr/share/wallpapers/deepin/default_background.jpg 50
+
 		;;
 
 	abort-upgrade|abort-remove|abort-deconfigure)
@@ -17,4 +18,8 @@ case "${1}" in
 		echo "postinst called with unknown argument \`${1}'" >&2
 		;;
 esac
+
+#DEBHELPER#
+
 exit 0
+
