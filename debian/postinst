@@ -6,7 +6,7 @@ case "${1}" in
 	configure)
 	    mkdir -p /usr/share/backgrounds/
 	    update-alternatives --install /usr/share/backgrounds/default_background.jpg \
-		    deepin-default-background /usr/share/wallpapers/deepin/default_background.jpg 50
+		    deepin-default-background /usr/share/wallpapers/deepin/desktop.* 50
 
 		;;
 
@@ -19,7 +19,7 @@ case "${1}" in
 		;;
 esac
 
-#DEBHELPER#
+
 
 exit 0
 

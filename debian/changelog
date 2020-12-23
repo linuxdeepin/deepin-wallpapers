@@ -1,3 +1,9 @@
+deepin-wallpapers (1.7.9-1) stable; urgency=medium
+
+  * default_background.jpg -> desktop.jpg
+
+ -- TagBuilder <tagbuilder@linuxdeepin.com>  Wed, 23 Dec 2020 16:58:10 +0800
+
 deepin-wallpapers (1.7.8-1) stable; urgency=medium
 
   * update desktop.jpg -> default_background.jpg
