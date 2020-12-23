@@ -2,11 +2,6 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: deepin-wallpapers
 Source: <url://example.com>
 
-Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
-License: GPL-3.0+
-
 Files: debian/*
 Copyright: 2016 Deepin Packages Builder <packages@linuxdeepin.com>
 License: GPL-3.0+

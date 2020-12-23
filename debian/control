@@ -10,7 +10,9 @@ Homepage: https://www.deepin.org/
 
 Package: deepin-wallpapers
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, deepin-wallpapers-nonfree
 Breaks: deepin-desktop-base (<< 2017.11.2)
-Description: community wallpapers
- Community wallpapers for dde
+Description: When users are ready to set their own desktop background,
+ Deepin Wallpaper provides many beautiful background pictures for users to choose.
+ It is part of Deepin software and DDE (Deepin Desktop Environment).
+
