@@ -4,14 +4,18 @@ set -e
 
 case "${1}" in
 	configure)
+	
+	if [ ! -f "/usr/share/backgrounds/default_background.jpg" ]; then
+	    mv /usr/share/wallpapers/deepin/desktop.jpg /usr/share/wallpapers/deepin/abc-124.jpg
+	    mv /usr/share/wallpapers/deepin/Deepin-Technology-Brand-Logo.jpg /usr/share/wallpapers/deepin/desktop.jpg 
 	    mkdir -p /usr/share/backgrounds/
 	    update-alternatives --install /usr/share/backgrounds/default_background.jpg \
-		    deepin-default-background /usr/share/wallpapers/deepin/desktop.* 50
+		    deepin-default-background /usr/share/wallpapers/deepin/desktop.jpg 50
 
+	fi
 		;;
 
 	abort-upgrade|abort-remove|abort-deconfigure)
-
 		;;
 
 	*)

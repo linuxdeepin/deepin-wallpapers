@@ -1,3 +1,9 @@
+deepin-wallpapers (1.7.10-1) unstable; urgency=medium
+
+  * update background.
+
+ -- TagBuilder <lichenggang@uniontech.com>  Wed, 10 Mar 2021 20:32:54 +0800
+
 deepin-wallpapers (1.7.9-1) stable; urgency=medium
 
   * default_background.jpg -> desktop.jpg
