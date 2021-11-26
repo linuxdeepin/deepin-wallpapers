@@ -1,0 +1,10 @@
+Package: deepin-wallpapers
+Version: 1.6.16+eagle3-1
+Architecture: arm64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46839
+Breaks: deepin-desktop-base (<< 2017.11.2)
+Section: utils
+Priority: optional
+Homepage: https://www.deepin.org/
+Description: Default wallpapers for dde
