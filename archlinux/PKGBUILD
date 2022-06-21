@@ -3,22 +3,17 @@ pkgbase=deepin-wallpapers-git
 pkgname=(deepin-wallpapers-git deepin-community-wallpapers-git)
 pkgver=1.6.14.1.r4.g9d8abcc
 pkgrel=1
-epoch=1
 pkgdesc='Deepin Wallpapers'
 arch=('any')
 license=('GPL')
 url="https://github.com/linuxdeepin/deepin-wallpapers"
 makedepends=('git' 'deepin-api-git')
 groups=('deepin-git')
-source=("$pkgname-$pkgver::source.tar.gz")
+source=('source.tar.gz')
 sha512sums=('SKIP')
-pkgver() {
-    cd $pkgbase
-    git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
-}
 
 prepare() {
-  cd $pkgname-$pkgver
+    cd $deepin_source_name
 
   cp -a "$srcdir"/$pkgbase{,-community}
 
