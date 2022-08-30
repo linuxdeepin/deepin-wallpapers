@@ -7,7 +7,7 @@ case "${1}" in
 	
 	if [ ! -f "/usr/share/backgrounds/default_background.jpg" ]; then
 	    mv /usr/share/wallpapers/deepin/desktop.jpg /usr/share/wallpapers/deepin/abc-124.jpg
-	    mv /usr/share/wallpapers/deepin/deepin-theme-3.jpg /usr/share/wallpapers/deepin/desktop.jpg 
+	    mv /usr/share/wallpapers/deepin/wallpaper-dark.jpg /usr/share/wallpapers/deepin/desktop.jpg 
 	    mkdir -p /usr/share/backgrounds/
 	    update-alternatives --install /usr/share/backgrounds/default_background.jpg \
 		    deepin-default-background /usr/share/wallpapers/deepin/desktop.jpg 50
