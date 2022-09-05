@@ -1,0 +1,34 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: deepin-wallpapers
+Upstream-Contact: UnionTech Software Technology Co., Ltd. <>
+Source: https://github.com/linuxdeepin/deepin-wallpapers
+
+# README 
+Files: README.md README.zh_CN.md CHANGELOG.md
+Copyright: None
+License: CC-BY-4.0
+
+# Project file
+Files: Makefile
+Copyright: UnionTech Software Technology Co., Ltd.
+License: GPL-3.0-or-later
+
+# ci
+Files: .github/*
+Copyright: None
+License: CC0-1.0
+
+# debian rpm archlinux
+Files: debian/* rpm/* archlinux/*
+Copyright: None
+License: CC0-1.0
+
+# images
+Files: deepin/*.jpg
+Copyright: None
+License: CC-BY-NC-3.0
+
+# images
+Files: deepin-community/*.jpg
+Copyright: None
+License: CC-BY-SA-3.0
