@@ -26,9 +26,4 @@ License: CC0-1.0
 # images
 Files: deepin/*.jpg
 Copyright: None
-License: CC-BY-NC-3.0
-
-# images
-Files: deepin-community/*.jpg
-Copyright: None
-License: CC-BY-SA-3.0
+License: CC-BY-3.0
