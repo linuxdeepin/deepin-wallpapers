@@ -1,4 +1,41 @@
-deepin-wallpapers (1.3-1) stable; urgency=low
+deepin-wallpapers (1.7.13-3) unstable; urgency=medium
+
+  * Non-maintainer upload.
+
+ -- Tsic <liuhenga@uniontech.com>  Tue, 26 Jul 2022 16:53:36 +0800
+
+deepin-wallpapers (1.7.12-2) unstable; urgency=medium
+
+  * update background
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 10 May 2022 18:44:19 +0800
+
+deepin-wallpapers (1.7.11-1) unstable; urgency=medium
+
+  * update background.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 21 Dec 2021 17:37:10 +0800
+
+deepin-wallpapers (1.7.10-1) unstable; urgency=medium
+
+  * update background.
+
+ -- TagBuilder <lichenggang@uniontech.com>  Wed, 10 Mar 2021 20:32:54 +0800
+
+deepin-wallpapers (1.7.9-1) stable; urgency=medium
+
+  * default_background.jpg -> desktop.jpg
+
+ -- TagBuilder <tagbuilder@linuxdeepin.com>  Wed, 23 Dec 2020 16:58:10 +0800
+
+deepin-wallpapers (1.7.8-1) stable; urgency=medium
+
+  * update desktop.jpg -> default_background.jpg
+  * 
+
+ -- TagBuilder <tagbuilder@linuxdeepin.com>  Mon, 23 Nov 2020 09:54:18 +0800
+
+deepin-wallpapers (1.3) stable; urgency=low
 
   * Autobuild Tag 1.3 
 
