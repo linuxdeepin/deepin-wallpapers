@@ -9,12 +9,12 @@ Copyright: None
 License: CC-BY-4.0
 
 # Project file
-Files: Makefile
+Files: Makefile blur_image.sh
 Copyright: UnionTech Software Technology Co., Ltd.
 License: GPL-3.0-or-later
 
 # ci
-Files: .github/*
+Files: .github/* .obs/workflows.yml
 Copyright: None
 License: CC0-1.0
 

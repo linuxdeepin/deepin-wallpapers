@@ -3,24 +3,27 @@ pkgname=deepin-wallpapers-git
 pkgdesc='Default wallpapers for DDE'
 pkgver=1.6.14.1.r4.g9d8abcc
 pkgrel=1
+sourcename=deepin-wallpapers
+sourcetars=("$sourcename"_"$pkgver".oirg.tar.gz)
+sourcedir="$sourcename"-"$pkgver"
 pkgdesc='Deepin Wallpapers'
 arch=('any')
 license=('GPL')
 url="https://github.com/linuxdeepin/deepin-wallpapers"
 makedepends=('git' 'deepin-api-git')
 groups=('deepin-git')
-source=('source.tar.gz')
+source=("${sourcetars[@]}")
 sha512sums=('SKIP')
 
 build() {
-  cd $deepin_source_name
+  cd $sourcedir
   for _pic in deepin/*; do
     make PICS=$_pic
   done
 }
 
 package() {
-  cd $deepin_source_name
+  cd $sourcedir
   install -dm755 "$pkgdir"/usr/share/wallpapers
   cp -r deepin "$pkgdir"/usr/share/wallpapers/
   install -dm755 "$pkgdir"/var/cache
