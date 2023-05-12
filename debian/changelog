@@ -1,3 +1,9 @@
+deepin-wallpapers (1.7.15) unstable; urgency=medium
+
+  * remove depends deepin-wallpapers-nonfree
+
+ -- LiChengGang <lichenggang@uniontech.com>  Fri, 12 May 2023 11:43:47 +0800
+
 deepin-wallpapers (1.7.14) unstable; urgency=medium
 
   * add depends deepin-wallpapers-nonfree.
