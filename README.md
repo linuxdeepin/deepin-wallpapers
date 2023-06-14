@@ -45,4 +45,4 @@ We encourage you to report issues and contribute changes
 - [**Contribution guide for developers**](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers-en) 
 
 ## License
-deepin-wallpapers is licensed under [GPL-3.0-or-later](LICENSE).
+deepin-wallpapers is licensed under [CC-BY-4.0](LICENSE).
