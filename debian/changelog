@@ -1,3 +1,9 @@
+deepin-wallpapers (1.7.16) unstable; urgency=medium
+
+  * add postinst
+
+ -- LiChengGang <lichenggang@uniontech.com>  Mon, 26 Jun 2023 17:19:21 +0800
+
 deepin-wallpapers (1.7.15) unstable; urgency=medium
 
   * remove depends deepin-wallpapers-nonfree
