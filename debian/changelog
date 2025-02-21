@@ -1,3 +1,9 @@
+deepin-wallpapers (1.7.19) unstable; urgency=medium
+
+  * feat: add solid wallpaper
+
+ -- zhangkun <zhangkun2@uniontech.com>  Fri, 21 Feb 2025 15:54:15 +0800
+
 deepin-wallpapers (1.7.18) unstable; urgency=medium
 
   * fix: modify default wallpaper
