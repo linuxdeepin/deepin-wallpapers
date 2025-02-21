@@ -24,6 +24,6 @@ Copyright: None
 License: CC0-1.0
 
 # images
-Files: deepin/*.jpg
+Files: deepin/*.jpg deepin-solidwallpapers/*.png
 Copyright: UnionTech Software Technology Co., Ltd.
 License: CC-BY-4.0
