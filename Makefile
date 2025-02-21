@@ -1,4 +1,4 @@
-PICS := $(wildcard deepin/*.jpg deepin/*.jpeg deepin/*.png)
+PICS := $(wildcard deepin/*.jpg deepin/*.jpeg deepin/*.png deepin-solidwallpapers/*.png)
 
 define md5sum
 $(shell echo -n /usr/share/wallpapers/deepin/$(1) | md5sum | awk '{print $$1}')
