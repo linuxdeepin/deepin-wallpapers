@@ -1,3 +1,5 @@
+SYSTEMID := $(shell cat /etc/os-release | grep '^ID=' | cut -d'=' -f2)
+
 PICS := $(wildcard deepin/*.jpg deepin/*.jpeg deepin/*.png deepin-solidwallpapers/*.png)
 
 define md5sum
@@ -7,6 +9,12 @@ endef
 all: prepare $(addprefix blur/, ${PICS})
 
 prepare: 
+	@if [ "$(SYSTEMID)" = "uos" ]; then \
+		cp -r platform/uos/* deepin/; \
+	else \
+		cp -r platform/deepin/* deepin/; \
+	fi
+
 	@mkdir -p image-blur
 
 blur/%: 
