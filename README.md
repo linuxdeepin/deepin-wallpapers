@@ -46,3 +46,8 @@ We encourage you to report issues and contribute changes
 
 ## License
 deepin-wallpapers is licensed under [CC-BY-4.0](LICENSE).
+
+Each directory under `nonfree` follows its own license.
+
+- `nonfree/deepin-private/*` is licensed under [CC-BY-NC-ND-4.0](LICENSES/CC-BY-NC-ND-4.0.txt)
+- `nonfree/unsplash.com/*` is licensed under [Unsplash license](https://unsplash.com/license)
