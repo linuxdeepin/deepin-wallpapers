@@ -2,6 +2,10 @@ SYSTEMID := $(shell cat /etc/os-release | grep '^ID=' | cut -d'=' -f2)
 
 PICS := $(wildcard deepin/*.jpg deepin/*.jpeg deepin/*.png deepin-solidwallpapers/*.png)
 
+ifeq ($(USE_NONFREEPIC), 1)
+	PICS := $(wildcard nonfree/deepin-private/*.jpg nonfree/unsplash.com/*.jpg $(PICS))
+endif
+
 define md5sum
 $(shell echo -n /usr/share/wallpapers/deepin/$(1) | md5sum | awk '{print $$1}')
 endef

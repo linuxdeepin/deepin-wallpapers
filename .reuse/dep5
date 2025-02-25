@@ -27,3 +27,11 @@ License: CC0-1.0
 Files: deepin/*.jpg deepin-solidwallpapers/*.png platform/deepin/*.jpg platform/uos/*.jpg
 Copyright: UnionTech Software Technology Co., Ltd.
 License: CC-BY-4.0
+
+Files: nonfree/deepin-private/*
+Copyright: Wang Jinyu
+License: CC-BY-NC-ND-4.0
+
+Files: nonfree/unsplash.com/*
+Copyright: unsplash.com
+License: LicenseRef-UnsplashLicense

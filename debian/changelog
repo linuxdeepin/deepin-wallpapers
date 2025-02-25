@@ -1,3 +1,9 @@
+deepin-wallpapers (1.7.21) unstable; urgency=medium
+
+  * feat: add nonfree wallpaper
+
+ -- zhangkun <zhangkun2@uniontech.com>  Tue, 25 Feb 2025 14:47:24 +0800
+
 deepin-wallpapers (1.7.20) unstable; urgency=medium
 
   * chore: distinguish between uos and deepin wallpapers

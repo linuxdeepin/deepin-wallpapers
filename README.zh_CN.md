@@ -45,3 +45,8 @@ sudo make install
 
 ## 开源许可证
 deepin-wallpapers 在 [CC-BY-4.0](LICENSE) 下发布。
+
+`nonfree`下的各个目录遵循其各自的许可证
+
+- `nonfree/deepin-private/*` 在 [CC-BY-NC-ND-4.0](LICENSES/CC-BY-NC-ND-4.0.txt) 下发布
+- `nonfree/unsplash.com/*` 在 [Unsplash license](https://unsplash.com/license) 下发布
