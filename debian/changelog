@@ -1,3 +1,10 @@
+deepin-wallpapers (1.7.23) unstable; urgency=medium
+
+  * chore: remove abc-123.jpg
+  * chore: distinguish between uos 25 and deepin 25 wallpapers
+
+ -- zhangkun <zhangkun2@uniontech.com>  Thu, 20 Mar 2025 17:53:56 +0800
+
 deepin-wallpapers (1.7.22) unstable; urgency=medium
 
   * chore: Add missing wallpapers
