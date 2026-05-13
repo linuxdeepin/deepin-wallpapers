@@ -1,0 +1,32 @@
+[
+    {
+        "id": "default",
+        "thumbnail": "",
+        "packageName": "deepin-livewallpaper-default",
+        "path": "default.mp4"
+    },
+    {
+        "id": "summer-night-breeze",
+        "thumbnail": "thumbnails/Summer_Night_Breeze.png",
+        "packageName": "deepin-livewallpaper-summer-night-breeze",
+        "path": "Summer_Night_Breeze.mp4"
+    },
+    {
+        "id": "sailfish-in-the-deep-sea",
+        "thumbnail": "thumbnails/Sailfish_In_The_Deep_Sea.png",
+        "packageName": "deepin-livewallpaper-sailfish-in-the-deep-sea",
+        "path": "Sailfish_In_The_Deep_Sea.mp4"
+    },
+    {
+        "id": "cosmic-galaxy-nebula",
+        "thumbnail": "thumbnails/Cosmic_Galaxy_Nebula.png",
+        "packageName": "deepin-livewallpaper-cosmic-galaxy-nebula",
+        "path": "Cosmic_Galaxy_Nebula.mp4"
+    },
+    {
+        "id": "campfire-camping-in-the-forest",
+        "thumbnail": "thumbnails/Campfire_Camping_In_The_Forest.png",
+        "packageName": "deepin-livewallpaper-campfire-camping-in-the-forest",
+        "path": "Campfire_Camping_In_The_Forest.mp4"
+    }
+]

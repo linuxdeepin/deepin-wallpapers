@@ -10,9 +10,39 @@ Homepage: https://www.deepin.org/
 
 Package: deepin-wallpapers
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, deepin-livewallpaper-default
 Conflicts: deepin-wallpapers-nonfree
 Replaces: deepin-wallpapers-nonfree
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Description: dde wallpapers
  Default wallpapers for dde
+
+Package: deepin-livewallpaper-default
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: dde default live wallpaper
+ Default live wallpaper for dde
+
+Package: deepin-livewallpaper-summer-night-breeze
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: dde live wallpaper - Summer Night Breeze
+ Live wallpaper "Summer Night Breeze" for dde
+
+Package: deepin-livewallpaper-sailfish-in-the-deep-sea
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: dde live wallpaper - Sailfish In The Deep Sea
+ Live wallpaper "Sailfish In The Deep Sea" for dde
+
+Package: deepin-livewallpaper-cosmic-galaxy-nebula
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: dde live wallpaper - Cosmic Galaxy Nebula
+ Live wallpaper "Cosmic Galaxy Nebula" for dde
+
+Package: deepin-livewallpaper-campfire-camping-in-the-forest
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: dde live wallpaper - Campfire Camping In The Forest
+ Live wallpaper "Campfire Camping In The Forest" for dde
