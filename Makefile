@@ -12,14 +12,20 @@ endef
 
 all: prepare $(addprefix blur/, ${PICS})
 
-prepare: 
+prepare:
 	@if [ "$(SYSTEMID)" = "uos" ]; then \
-		cp -r platform/uos/* deepin/; \
+		cp -r deepin/platform/uos/* deepin/; \
 	else \
-		cp -r platform/deepin/* deepin/; \
+		cp -r deepin/platform/deepin/* deepin/; \
 	fi
 
 	@mkdir -p image-blur
+
+	@if [ "$(SYSTEMID)" = "uos" ]; then \
+		cp -r deepin-livewallpapers/platform/uos/* deepin-livewallpapers/; \
+	else \
+		cp -r deepin-livewallpapers/platform/deepin/* deepin-livewallpapers/; \
+	fi
 
 blur/%: 
 	/usr/lib/deepin-api/image-blur --sigma 30 $(subst blur/,,$@) image-blur/$(call md5sum,${@F}).jpg

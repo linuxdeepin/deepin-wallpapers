@@ -1,5 +1,7 @@
 deepin /usr/share/wallpapers
 image-blur /var/cache
 deepin-solidwallpapers /usr/share/wallpapers
+deepin-livewallpapers/thumbnails /usr/share/wallpapers/deepin-livewallpapers
+deepin-livewallpapers/metadata.json /usr/share/wallpapers/deepin-livewallpapers
 nonfree/deepin-private/* /usr/share/wallpapers/deepin
 nonfree/unsplash.com/* /usr/share/wallpapers/deepin
