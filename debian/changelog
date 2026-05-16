@@ -1,3 +1,9 @@
+deepin-wallpapers (1.7.26) unstable; urgency=medium
+
+  * feat: add live wallpaper
+
+ -- zhangkun <zhangkun2@uniontech.com>  Sat, 16 May 2025 15:36:00 +0800
+
 deepin-wallpapers (1.7.25) unstable; urgency=medium
 
   * chore: remove deepin wallpaper files
