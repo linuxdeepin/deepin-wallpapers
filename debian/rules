@@ -4,6 +4,8 @@
 
 export USE_NONFREEPIC = 1
 
+override_dh_install:
+	dh_install --exclude=deepin/platform --exclude=deepin-livewallpapers/platform
 
 %:
 	dh $@ 
